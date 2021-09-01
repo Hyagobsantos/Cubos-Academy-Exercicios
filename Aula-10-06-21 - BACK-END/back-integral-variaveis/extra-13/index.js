@@ -10,8 +10,6 @@ function AreaCilindroTotal(raio, altura){
     var area = 2 * base1 + circunferencia2;
 
     return area;
-
-
 }
 
 resultado = AreaCilindroTotal(4, 8);

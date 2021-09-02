@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    padding: 15px;
+    background-color:lightgray;
+}
+
+main section{
+    color: white ;
+    padding: 30px;
+}
+
+section h1{
+    margin-bottom: 20px;
+}
+
+section p{
+    margin-bottom: 100px;
+}

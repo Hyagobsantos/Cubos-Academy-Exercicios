@@ -1,0 +1,38 @@
+body {
+    background-color: burlywood;
+    padding: 50px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+header h1{
+    text-decoration: underline;
+}
+header p{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: rgb(175, 14, 14);
+}
+
+ul{
+    margin-bottom: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+img{
+    border-radius: 10px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+

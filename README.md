@@ -17,4 +17,5 @@ Exercícios e Resoluções
 * Aula-10-06-21
 * Aula-11-06-21 
 * Aula-14-06-21 
+* Aula-15-06-21
 

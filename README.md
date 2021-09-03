@@ -8,8 +8,8 @@
     <img src="https://img.shields.io/github/stars/Hyagobsantos/Cubos-Academy-Exercicios?style=flat-square" />
     <img src="https://img.shields.io/github/license/Hyagobsantos/Cubos-Academy-Exercicios?style=flat-square" />
 </p>
-# Cubos-Academy
-Exercícios e Resoluções 
+
+# Cubos-Academy Exercícios e Resoluções 
 
 ## Exercicios Entregues 
 

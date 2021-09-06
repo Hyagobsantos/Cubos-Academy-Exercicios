@@ -10,4 +10,4 @@ console.info(primeiroNome1);
 
 primeiroNome1 = "José";
 
-console.info(primeiroNome1)
+console.info(primeiroNome2)

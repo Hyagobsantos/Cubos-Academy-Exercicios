@@ -7,4 +7,4 @@ for(let index in palavra){
     }
 };
 
-console.log(`Foram Encontradas ${aux} Letras A`);
+console.log(`Foram Encontradassd ${aux} Letras A`);

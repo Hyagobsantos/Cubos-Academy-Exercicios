@@ -14,31 +14,21 @@ Cubos-Academy
 ## Exercicios Entregues 
 
 
-
-* Aula-09-06-21 
-* Aula-10-06-21
-* Aula-11-06-21         
-* Aula-14-06-21 
-* Aula-15-06-21
-* Aula-16-06-21
-* Aula-17-06-21
-* Aula-21-06-21
-* Aula-22-06-21
-* Aula-23-06-21
-* Aula-28-06-21
-*novaAula
-
-~~~javascript
-Esta é uma linha de código em Javascript.
-~~~
-
-~~~php
-Esta é uma linha de código em PHP.
-~~~
-
-~~~html
-Esta é uma linha de código em HTML.
-~~~
+Modulo-01| Modulo-02 | Modulo-03
+:--------- | :------: | -------:
+Aula-09-06-21| 
+Aula-10-06-21|
+Aula-11-06-21|        
+Aula-14-06-21|
+Aula-15-06-21|
+Aula-16-06-21|
+Aula-17-06-21|
+Aula-21-06-21|
+Aula-22-06-21|
+Aula-23-06-21|
+Aula-28-06-21| 
+Aula-29-06-21|
+Aula-30-06-21|
 
 
 

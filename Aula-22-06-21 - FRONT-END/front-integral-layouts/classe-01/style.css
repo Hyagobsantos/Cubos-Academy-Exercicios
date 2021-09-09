@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #e6eff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    width: 635px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    font-family: 'Karla', sans-serif;
+}
+
+.card-main{
+    padding: 40px 40px 0px 40px;
+}
+
+.card-main h1{
+    color: #2AB3B1;
+    letter-spacing: -0.3px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.card-main h3{
+    
+    color: #C0DF33;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    margin-bottom: 11px;
+}
+
+.card-main p {
+    
+    color: rgba(154, 167, 190, 1);
+    letter-spacing: -0.225px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    margin-bottom: 40px;
+}
+
+.card-section-main{
+    display: flex;
+
+}
+
+.card-section{
+    width: 318px;
+    padding: 40px 40px;
+    background: #2AB3B1;
+    border-radius: 0px 0px 0px 8px;
+}
+
+.card-section h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+
+}
+
+.card-section h2{
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+.card-section span{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.card-section p{
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.card-section a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background: rgba(192, 223, 51, 1);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card-2{
+    background: #36c7c4;
+    border-radius: 0px 0px 8px 0px;
+}
+
+.card-2 p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+

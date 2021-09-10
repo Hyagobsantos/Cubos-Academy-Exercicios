@@ -30,3 +30,7 @@ const usuários = [
         habilitado: true,
     },
 ]
+
+const validado = usuários.filter(x => x.idade > 18 && x.idade < 65);
+
+

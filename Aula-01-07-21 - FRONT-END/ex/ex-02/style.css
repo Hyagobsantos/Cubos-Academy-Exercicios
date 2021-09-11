@@ -1,0 +1,158 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+background-color: #0d1117;
+font-family: 'Segoe UI',sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+body h1{
+margin-bottom: 15px;
+font-size: 24px;
+font-weight: 300;
+letter-spacing: -0.5px;
+color: #c9d1d9;
+}
+
+body img{
+margin-top:30px;
+margin-bottom: 20px;  
+}
+
+.container{
+width: 285px;
+background-color: #161b22;
+border: 1px solid #21262d;
+padding: 20px;
+border-radius: 6px;
+}
+
+.colum{
+display: flex;
+flex-direction: column;
+}
+
+label{
+    font-size: 13px;
+    color:#C9D1D9;
+}
+
+input{
+    all:unset;
+    box-sizing: border-box;
+    padding: 3px 12px;
+    font-size: 13px;
+    line-height: 20px;
+    color:#C9D1D9;
+    background-color: #0d1117;
+    border:1px solid #30363d;
+    border-radius: 6px;
+   
+}
+
+input:focus{
+    border-color:#2375f1 ;
+    box-shadow: 0px 0px 0px 3px #0e2c5a ;
+}
+
+.container-email input{
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+
+.container-senha input{
+    margin-top: 7px;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto a{
+    font-size: 11px;
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.container .aincora{
+    all:unset;
+
+    box-sizing: border-box;
+    padding: 5px 90px;
+    margin-top:20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+
+    color:white;
+    background-color:#238636 ;
+
+    display: block;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .aincora:hover{
+    background-color:#36a84d
+}
+
+.new{
+    border: 1px solid rgba(110, 118, 129, 0.4);
+    
+    padding: 15px 40px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 13px;
+    color:#C9D1D9;
+}
+
+.new a{
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.new a:hover{
+    text-decoration: underline;
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 65px;
+}
+
+.footer ul li{
+    padding-left: 11px;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer ul li .graay{
+    color: #8b949e
+}
+
+.footer ul li .graay:hover{
+    color: #58a6ff;
+}

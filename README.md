@@ -1,6 +1,4 @@
-<h1 align="center"> 
-Cubos-Academy
-</h1>
+![](https://i.imgur.com/xG74tOh.png)
 
 <p align="center">
     <img src="https://img.shields.io/github/issues/Hyagobsantos/Cubos-Academy-Exercicios?style=flat-square" />
@@ -29,6 +27,7 @@ Aula-23-06-21|
 Aula-28-06-21| 
 Aula-29-06-21|
 Aula-30-06-21|
+Aula-01-07-21|
 
 
 

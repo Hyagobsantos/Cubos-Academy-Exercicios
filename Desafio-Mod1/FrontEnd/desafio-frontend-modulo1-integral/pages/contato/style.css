@@ -1,0 +1,18 @@
+.contact__description, .contact-form__form{
+    max-width: 1110px;
+}
+
+.contact-form{
+    margin-bottom: 100px;
+}
+
+.h22{
+    font-family: 'Ibarra Real Nova',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.357143px; 
+   
+    
+}

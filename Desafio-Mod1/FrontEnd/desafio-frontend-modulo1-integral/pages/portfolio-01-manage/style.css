@@ -1,0 +1,24 @@
+.hero-section__image, .project-preview{
+    max-width: 100%;
+    height: auto;
+}
+
+.body11{
+    font-family: 'Public Sans',sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.body22{
+    font-family: 'Public Sans',sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.project-details{
+    max-height: 500px;
+}

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: #f8efef;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+
+    width: 610px;
+    padding: 64px 90px 56px 90px;
+    border-radius: 15px;
+
+    font-family:'Mulish',sans-serif;
+
+}
+
+.container__title{
+    font-family: 'Rokkitt',sans-serif;
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #161843;
+
+    margin-bottom: 15px;
+}
+
+.container__text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #161843;
+
+    margin-bottom: 52px;
+}
+
+input{
+    all:unset;
+
+    padding: 25px 25px;
+    width: 430px;
+    margin-bottom: 16px;
+
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #717A91;
+}
+
+.division{
+   display: flex;
+   justify-content: space-between; 
+}
+
+.division__link{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C6787;
+    text-decoration: none;
+}
+
+.division button{
+    all:unset;
+
+    box-sizing: border-box;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    background: #046586;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
+    padding: 20px 30px;
+    border-radius: 5px;
+
+    display: flex;
+    margin-bottom: 55px;
+
+}
+
+.division button:hover{
+    background: #0d88b1;
+}
+
+hr{
+    border: 1px solid rgba(202, 214, 228, 0.8);
+    margin-bottom: 35px;
+}
+
+.division button span{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+h5{
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+    margin-bottom: 30px;
+}
+
+.botoes{
+   display: flex;
+   justify-content: space-between; 
+
+   margin-bottom: 60px;
+}
+
+.botoes button{
+    all:unset;
+
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 45px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+    display: flex;
+
+    cursor: pointer;
+}
+
+.botoes button span{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.container-p{
+    text-align: center;
+
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.container-p a {
+    color: rgba(4, 101, 134, 1);
+    margin-left: 2px;
+}
+

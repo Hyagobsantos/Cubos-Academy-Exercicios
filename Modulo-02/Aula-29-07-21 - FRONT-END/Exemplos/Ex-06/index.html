@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Cadastro</h1>
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" required> 
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" required> 
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" required> 
+            </div>
+            <div>
+                <label for="r-senha">Repetir Senha</label>
+                <input id="r-senha" type="password" required> 
+            </div>
+            <div>
+                Já é Cliente?
+                <label for="sim">
+                    Sim
+                    <input id="sim" type="radio" name="cliente"> 
+                </label>
+                <label for="não">
+                    Não
+                    <input id="não" type="radio" name="cliente" checked> 
+                </label>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

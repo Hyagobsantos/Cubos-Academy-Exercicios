@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.aside{
+    background: rgba(49, 49, 49, 1);
+    padding: 20px ;
+
+    display: flex;
+    flex-direction: column;
+    
+    position: fixed;
+    top:0;
+    bottom: 0;
+
+    gap:40px
+}
+
+.aside.hidden span{
+    display: none;
+}
+
+.aside__button{
+    all:unset;
+    box-sizing: border-box;
+    cursor:pointer;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.ml{
+    margin-left:10px ;
+
+    color: #FFF;
+}
+
+.btn-config{
+    margin-top: auto;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 1;
+    text-align: center;
+
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.card{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap:30px
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.imgprev.imgnext{
+    Width:35px;
+    Height:70px
+}
+
+.imgModal{
+    width: 555px;
+    height: 370px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.fecharModal{
+    position: absolute;
+    right: 90px;
+    top:90px;
+    transition: all 0.5s ease;
+}
+
+.escondido{
+    display: none;
+}
+

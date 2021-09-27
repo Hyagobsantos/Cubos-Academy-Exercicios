@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    min-height: 100vh;
+}
+
+.card{
+    outline:2px solid grey;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+
+}
+
+.img{
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.oculto{
+    background-color: rgba(0, 0, 0, 0.397);
+
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escondido{
+    display: none;
+}
+
+.modal{
+    background-color: rgba(0, 0,0, 0.5);
+
+    position:fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

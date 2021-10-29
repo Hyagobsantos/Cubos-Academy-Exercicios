@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.transform {
+  list-style: none;
+}
+
+.transform span {
+  padding-right: 20px;
+}
+
+input {
+  border: 1px solid black;
+}

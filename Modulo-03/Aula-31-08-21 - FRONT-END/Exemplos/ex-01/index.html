@@ -9,17 +9,25 @@
 <body>
     <div id="root"></div>
 
+    <div class="buttom_containier">
+
+    </div>
+    <div class="buttom_containier2">
+
+    </div>
     
 
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
-    <script type="text/babel">
-      const botao = <button>Click Aqui</button>;
-      const root = document.querySelector('#root')
+    <script >
+      const botao = React.createElement('button', { style: {background:'black', color: 'white'} }, 'Click Aqui Otario');
+      const divbotao = document.querySelector('.buttom_containier');
+      const divbotao2 = document.querySelector('.buttom_containier2');
 
-      ReactDOM.render(botao, root)
+      ReactDOM.render(botao,divbotao)
+      ReactDOM.render(botao,divbotao2)
     </script>
 
 </body>

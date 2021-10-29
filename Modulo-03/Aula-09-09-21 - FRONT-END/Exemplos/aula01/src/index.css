@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.contador {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,21 @@
+main {
+  display: flex;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 58px);
+}
+
+.left {
+  display: flex;
+  flex-grow: 1;
+  background-color: cornflowerblue;
+}
+
+main div:last-child {
+  flex-grow: 3;
+  display: flex;
+}
